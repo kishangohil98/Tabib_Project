@@ -1,0 +1,79 @@
+.bd{
+   /* background-color: #1F7FD4;*/
+   background-image: url(../images/doc_reg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.register-box{
+        width: 60%;
+	height:auto;
+	position: absolute;
+	background: white;
+	border-radius: 10px;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 75px;
+        margin-bottom: 50px;
+}
+.register-logo{
+    width:40%;
+    height:auto;
+}
+.registerhere{
+    font-weight: bold;
+    font-size: 16px;
+    color:black;
+    opacity: 0.7;
+    font-family: sans-serif;
+        
+}
+.profiletodisplay{
+    font-weight: bold;
+    font-size: 26px;
+    color:black;
+    opacity: 1;
+    font-family: sans-serif;
+    
+}
+.birthdate-input{
+    width:200px !important;
+}
+.register-button{
+    display: block;
+  width: 40%;
+  height: 50px;
+  border: none;
+  background: linear-gradient(120deg,#3498db,#9CD6FA,#3498db);
+  background-size: 200%;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 5px;
+}
+.register-button:hover{
+    background-position: right;
+}
+
+/*donate blood request*/
+.register-box2{
+        width: 60%;
+	height:auto;
+        background:white;
+        background-color: white;
+        position: relative;
+	border-radius: 10px;
+	padding-left: 5%;
+        padding-right: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        
+        
+        
+}

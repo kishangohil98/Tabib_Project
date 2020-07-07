@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+.logo{
+    width: 250px;
+    height:auto;
+    margin:-10px;   
+    
+}
+.firstimage{
+    position:relative;
+}
+.textonimage{
+    position: absolute;
+    top:45px;
+    left:45px;
+    background-color: rgba(192,192,192,.6);
+   padding-left: 20px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hf1
+{
+    color:white;
+font-family: 'Righteous', cursive;
+
+}
+.hf2
+{
+    color:white;
+    font-family: 'Righteous', cursive;
+} 
+
+.loginbutton{
+    background: linear-gradient(120deg,#1086CF,#A3DAFC,#54BEFF);
+    border-radius: 5%;
+    text-align: center;
+    transition:0.5s;
+    color:white !important;
+    font-weight: bold;
+    padding-left:10px;
+    padding-right:10px;
+    background-size: 200%;
+}
+.loginbutton:hover{
+    background-position: right;
+  
+    
+}
+.active{
+    border-bottom :4px solid;
+    border-image: linear-gradient(to top right, #0066cc 0%, #00ffff 100%);
+    border-image-slice: 1;
+    border-radius: 10%;
+    background-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    
+}
+.cardtitle{
+    text-align: center;
+}
+footer{
+    background-color: #1F7FD4;
+}
+footer ul li{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    margin-left: 30px;
+   
+}
+footer ul li a{
+    color:white;
+}
+.ud
+{
+    padding-top: 10px;
+    border-bottom: 2px;
+}
+.copyright{
+    text-align: center;
+    color:whitesmoke;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* doctor Registeration */
+
+.doc_reg{
+     background-image: url("../images/doc_reg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* index.jsp*/
+.logout_btn
+{
+    background: linear-gradient(120deg,#1086CF,#A3DAFC,#54BEFF);
+    border-radius: 5px;
+    text-align: center;
+    transition:0.5s;
+    color:white !important;
+    font-weight: bold;
+    padding-left:15px;
+    padding-right:15px;
+    background-size: 200%;
+}
+.logout_btn:hover
+{
+    background-position: right;
+}
+
+/*communicate start*/
+.contact_background{
+    background-color: #A3DAFC;
+}
+.commu_search{
+    width:80%;
+}
+.comm_label{
+   padding-left: 60px;
+}
+/*profile back button*/
+.profile_back{
+   all:unset;
+   margin-left: -50px;
+   margin-top: 10px;
+   color:#1F7FD4;
+   font-size:20px;
+    
+}
+
+/*donateblood1 css*/
+.logbtn{
+  display: block;
+  width: 30%;
+  height: 50px;
+  border: none;
+  background: linear-gradient(120deg,#3498db,#9CD6FA,#3498db);
+  background-size: 200%;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.logbtn:hover{
+  background-position: right;
+}
+
+/*Donate request page*/
+.dnt_rqs_bg{
+    
+   padding-left: auto;
+   padding-right: auto;
+     background-repeat: no-repeat;
+       background-size: cover;
+       height: 100%;
+       width: 100%;
+       position:fixed;
+     
+       margin: auto;
+     
+           
+     
+}
