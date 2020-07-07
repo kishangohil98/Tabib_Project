@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Here</title>
+        <link rel="stylesheet" type="text/css" href="css/style-login.css">
+        <script src="jquery/jquery.min.js"></script>
+</head>
+<body class="bd">
+    <form class="login-box" action="Login_validation" method="post">
+	<div>
+            <img src="images/logo7.png" class="logoforlogin"/>
+	</div>
+            
+	<h1>Welcome</h1>
+        <div class="rbuser">
+            <label class="container mr-4">Patient
+                <input type="radio" checked="checked" name="usertype" value="patient">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Doctor
+  <input type="radio" name="usertype" value="doctor">
+  <span class="checkmark"></span>
+</label>
+        </div> 
+        <div class="txtb">
+            <input type="text" required name="username">
+          <span data-placeholder="Email"></span>
+        </div>
+        <div class="txtb">
+            <input type="password" required name="password">
+          <span data-placeholder="Password"></span>
+        </div>
+
+        <input type="submit" class="logbtn" value="Login">
+
+        <div class="bottom-text">
+            Don't have account? <a href="registeration.html">Register First</a>
+        </div>
+        
+        <div class="bottom-text2">
+            Doctor Registeration:<a href="doctor_registration.html">I want to be part of Tabib</a>
+        </div>
+      </form>
+
+      <script type="text/javascript">
+      $(".txtb input").on("focus",function(){
+        $(this).addClass("focus");
+      });
+
+      $(".txtb input").on("blur",function(){
+        if($(this).val() == "")
+        $(this).removeClass("focus");
+      });
+
+      </script>
+</body>
+</html>

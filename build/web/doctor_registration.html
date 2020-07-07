@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style-register.css" >
+        <link rel="stylesheet" href="css/style1.css" >
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    </head>
+    <body class="doc_reg">
+        <div class="container">
+            <div>
+                <form class="register-box" method="post" action="doc_reg">
+                    <div class="col">
+                        <div class="row">
+                            <img  class="register-logo mx-auto mt-2" src="images/logo7.png">
+                        </div>
+                        <div class="text-center mb-2 registerhere">Doctor Registeration</div>
+                    
+  <div class="form-group row">
+    <label for="firstname" class="col-sm-3 col-form-label">First Name</label>
+    <div class="col-sm-9">
+        <input type="text" class="form-control" id="firstname" placeholder="first name" name="firstname" required>
+    </div>
+  </div>
+    <div class="form-group row">
+    <label for="lastname" class="col-sm-3 col-form-label">Last Name</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="lastname" placeholder="last name" name="lastname" required>
+    </div>
+  </div>
+                         <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-3 col-form-label">Email</label>
+    <div class="col-sm-9">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email" required>
+    </div>
+  </div>
+    <div class="form-group row">
+    <label for="mobileno" class="col-sm-3 col-form-label">Mobile No</label>
+    <div class="col-sm-9">
+      <input type="tel"  required class="form-control" id="mobileno" name="mobileno" placeholder="mobile no">
+    </div>
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-3 pt-0">Gender</legend>
+      <div class="col-sm-9 pr-2">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="Male" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="gridRadios2" value="Female">
+          <label class="form-check-label" for="gridRadios2">
+            Female
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="form-group row">
+    <label for="city" class="col-sm-3 col-form-label">Specialist in</label>
+    <div class="col-sm-9">
+       <select class="form-control"  name="specialistin" id="city">      
+		<option value="Anaesthesia">Anaesthesia</option>
+		<option value="Andrology">Andrology</option>
+		<option value="Audiology &amp; Speech Therapy">Audiology &amp; Speech Therapy</option>
+		<option value="Ayurvedic">Ayurvedic</option>
+		<option value="Cardiologist">Cardiologist</option>
+		<option value="Dentist">Dentist</option>
+		<option value="Dermatologist">Dermatologist</option>
+		<option value="Diabetologist">Diabetologist</option>
+		<option value="Dietician">Dietician</option>
+		<option value="Endocrinologist">Endocrinologist</option>
+		<option value="ENT">ENT</option>
+		<option value="Gastroenterologist">Gastroenterologist</option>
+                <option value="General Physician">General Physician</option>
+		<option value="Gynaecologist">Gynaecologist</option>
+		<option value="34">Haematology</option>
+		<option value="Haematology">Homoeopathy</option>
+		<option value="Medicine">Medicine</option>
+		<option value="Nephrologist">Nephrologist</option>
+		<option value="Neurologist">Neurologist</option>
+		<option value="Neurosurgeon">Neurosurgeon</option>
+		<option value="Nutritionist">Nutritionist</option>
+		<option value="Oncologist">Oncologist</option>
+		<option value="Ophthalmologist">Ophthalmologist</option>
+		<option value="Orthopaedics">Orthopaedics</option>
+		<option value="Orthopedic Surgeon">Orthopedic Surgeon</option>
+		<option value="Paediatrics">Paediatrics</option>
+		<option value="Pathologist">Pathologist</option>
+		<option value="Pediatric Cardiac Surgeon">Pediatric Cardiac Surgeon</option>
+		<option value="Physiotherapist">Physiotherapist</option>
+		<option value="Plastic Surgery">Plastic Surgery</option>
+		<option value="Psychiatrist">Psychiatrist</option>
+		<option value="Pulmonary Medicine">Pulmonary Medicine</option>
+		<option value="Radiologist">Radiologist</option>
+		<option value="Rheumatologist">Rheumatologist</option>
+		<option value="Sexologist">Sexologist</option>
+		<option value="Skin">Skin</option>
+		<option value="Somnologist">Somnologist</option>
+		<option value="Surgeon">Surgeon</option>
+		<option value="Urologist">Urologist</option>
+    </select>
+    </div>
+  </div>       
+    
+<div class="form-group row">
+    <label for="city" class="col-sm-3 col-form-label">City</label>
+    <div class="col-sm-9">
+       <select class="form-control"  name="city" id="city">
+      <option value="Vadodara">Vadodara</option>
+      <option value="Ahmedabad">Ahmedabad</option>
+      <option value="Surat">Surat</option>
+      <option value="Gandhinagar">Gandhinagar</option>
+      <option value="Rajkot">Rajkot</option>
+    </select>
+    </div>
+  </div>
+  <div class=" form-group row">
+    <label for="validationTextarea" class="col-sm-3 col-form-label">Address</label>
+    <div class="col-sm-9">
+        <textarea class="form-control" maxlength="130" id="validationTextarea" name="address" placeholder="Enter your corresponding address" required></textarea>
+    </div>
+  </div>
+                        
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-3 col-form-label">Set Password</label>
+    <div class="col-sm-9">
+        <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password1" required>
+    </div>
+  </div>
+ <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-3 col-form-label">Retype Password</label>
+    <div class="col-sm-9">
+        <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password2" required>
+    </div>
+  </div>
+  </div>
+  <div class="form-group row">
+      <div class="col-sm-12">
+          <button type="submit" class="mx-auto register-button">Register</button>
+      </div>
+  </div>
+            </form> 
+                    </div>
+            </div>
+            
+     
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+    </body>
+</html>
